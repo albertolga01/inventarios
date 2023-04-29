@@ -1,0 +1,6 @@
+CRITICAL - 2023-03-15 12:40:47 --> Call to a member function update() on null
+in APPPATH/Controllers/AceiteController.php on line 42.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\AceiteController->editarAceite()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AceiteController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

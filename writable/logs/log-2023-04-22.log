@@ -1,0 +1,6 @@
+CRITICAL - 2023-04-22 11:52:51 --> Call to a member function isValid() on null
+in APPPATH/Controllers/EquiposController.php on line 47.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\EquiposController->editarEquipo()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EquiposController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

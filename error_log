@@ -1,0 +1,6 @@
+[18-Apr-2023 19:11:59 America/Chicago] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 4096 bytes) in /home/jkmpg7ol/public_html/inventarios/system/Common.php on line 431
+[18-Apr-2023 19:11:59 America/Chicago] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 32768 bytes) in /home/jkmpg7ol/public_html/inventarios/system/Log/Handlers/FileHandler.php on line 1
+[18-Apr-2023 19:12:00 America/Chicago] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 4096 bytes) in /home/jkmpg7ol/public_html/inventarios/system/Common.php on line 431
+[18-Apr-2023 19:12:00 America/Chicago] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 32768 bytes) in /home/jkmpg7ol/public_html/inventarios/system/Log/Handlers/FileHandler.php on line 1
+[18-Apr-2023 19:12:29 America/Chicago] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 4096 bytes) in /home/jkmpg7ol/public_html/inventarios/system/Common.php on line 431
+[18-Apr-2023 19:12:29 America/Chicago] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 32768 bytes) in /home/jkmpg7ol/public_html/inventarios/system/Log/Handlers/FileHandler.php on line 1

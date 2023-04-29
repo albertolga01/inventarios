@@ -1,0 +1,23 @@
+ERROR - 2023-04-15 14:18:38 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'GROUP BY `id_producto`
+ORDER BY `folio` ASC' at line 4 in /home/jkmpg7ol/public_html/inventarios/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/jkmpg7ol/public_html/inventarios/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/jkmpg7ol/public_html/inventarios/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/jkmpg7ol/public_html/inventarios/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/jkmpg7ol/public_html/inventarios/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/jkmpg7ol/public_html/inventarios/system/Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/jkmpg7ol/public_html/inventarios/system/BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+#6 /home/jkmpg7ol/public_html/inventarios/app/Controllers/AceiteController.php(110): CodeIgniter\BaseModel->findAll()
+#7 /home/jkmpg7ol/public_html/inventarios/system/CodeIgniter.php(927): App\Controllers\AceiteController->guardarVentaAceite()
+#8 /home/jkmpg7ol/public_html/inventarios/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AceiteController))
+#9 /home/jkmpg7ol/public_html/inventarios/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/jkmpg7ol/public_html/inventarios/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-04-15 14:18:38 --> Call to a member function getResult() on bool
+in SYSTEMPATH/Model.php on line 224.
+ 1 SYSTEMPATH/BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+ 2 APPPATH/Controllers/AceiteController.php(110): CodeIgniter\BaseModel->findAll()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\AceiteController->guardarVentaAceite()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AceiteController))
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

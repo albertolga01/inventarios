@@ -1,0 +1,11 @@
+CRITICAL - 2023-03-06 11:31:58 --> Undefined variable $empleados
+in APPPATH\Views\aceites\aceites.php on line 41.
+ 1 APPPATH\Views\aceites\aceites.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $empleados', 'APPPATH\\Views\\aceites\\aceites.php', 41)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\aceites\\aceites.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('aceites/aceites', [], true)
+ 5 APPPATH\Controllers\AceiteController.php(16): view('aceites/aceites', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AceiteController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AceiteController))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,535 @@
+CRITICAL - 2023-04-17 11:02:28 --> Call to undefined function App\Controllers\query()
+in APPPATH/Controllers/AceiteController.php on line 86.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\AceiteController->guardarVentaAceite()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AceiteController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-17 11:02:44 --> Call to undefined function App\Controllers\query()
+in APPPATH/Controllers/AceiteController.php on line 86.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\AceiteController->guardarVentaAceite()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AceiteController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-17 11:03:05 --> Call to undefined function App\Controllers\query()
+in APPPATH/Controllers/AceiteController.php on line 86.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\AceiteController->guardarVentaAceite()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AceiteController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-17 11:03:32 --> Call to undefined function App\Controllers\queryT()
+in APPPATH/Controllers/AceiteController.php on line 86.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\AceiteController->guardarVentaAceite()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AceiteController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-17 11:10:37 --> A non-numeric value encountered
+in APPPATH/Controllers/AceiteController.php on line 139.
+ 1 APPPATH/Controllers/AceiteController.php(139): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric value encountered', 'APPPATH/Controllers/AceiteController.php', 139, [...])
+ 2 APPPATH/Controllers/AceiteController.php(87): App\Controllers\AceiteController->queryT('2023-04-17', 7)
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\AceiteController->guardarVentaAceite()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AceiteController))
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-17 11:12:44 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'COUNT(id_producto) AS TOTAL
+        FROM historial_compra_venta t1
+        LEF' at line 4 in /home/jkmpg7ol/public_html/inventarios/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/jkmpg7ol/public_html/inventarios/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT\r\n       ...', 0)
+#1 /home/jkmpg7ol/public_html/inventarios/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 /home/jkmpg7ol/public_html/inventarios/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 /home/jkmpg7ol/public_html/inventarios/system/Model.php(768): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
+#4 /home/jkmpg7ol/public_html/inventarios/app/Controllers/AceiteController.php(101): CodeIgniter\Model->__call('query', Array)
+#5 /home/jkmpg7ol/public_html/inventarios/system/CodeIgniter.php(927): App\Controllers\AceiteController->guardarVentaAceite()
+#6 /home/jkmpg7ol/public_html/inventarios/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AceiteController))
+#7 /home/jkmpg7ol/public_html/inventarios/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/jkmpg7ol/public_html/inventarios/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-04-17 11:12:44 --> Call to a member function getResultArray() on bool
+in APPPATH/Controllers/AceiteController.php on line 103.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\AceiteController->guardarVentaAceite()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AceiteController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-17 11:50:28 --> Call to a member function getResultArray() on bool
+in APPPATH/Controllers/AceiteController.php on line 102.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\AceiteController->guardarVentaAceite()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AceiteController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-17 11:51:23 --> Call to a member function getResultArray() on bool
+in APPPATH/Controllers/AceiteController.php on line 102.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\AceiteController->guardarVentaAceite()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AceiteController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-17 11:51:29 --> Call to a member function getResultArray() on bool
+in APPPATH/Controllers/AceiteController.php on line 102.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\AceiteController->guardarVentaAceite()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AceiteController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-17 11:56:07 --> Call to a member function database() on null
+in APPPATH/Controllers/AceiteController.php on line 100.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\AceiteController->guardarVentaAceite()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AceiteController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-17 12:17:30 --> Call to a member function database() on null
+in APPPATH/Controllers/AceiteController.php on line 100.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\AceiteController->guardarVentaAceite()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AceiteController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-17 12:17:41 --> Call to a member function database() on null
+in APPPATH/Controllers/AceiteController.php on line 100.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\AceiteController->guardarVentaAceite()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AceiteController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-17 12:17:45 --> Call to a member function database() on null
+in APPPATH/Controllers/AceiteController.php on line 100.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\AceiteController->guardarVentaAceite()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AceiteController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-17 12:17:51 --> Call to a member function database() on null
+in APPPATH/Controllers/AceiteController.php on line 100.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\AceiteController->guardarVentaAceite()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AceiteController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-17 12:21:06 --> syntax error, unexpected '$db' (T_VARIABLE), expecting function (T_FUNCTION) or const (T_CONST)
+in APPPATH/Config/Database.php on line 33.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH/Config/Database.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Config\\Database')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Config\\Database')
+ 4 SYSTEMPATH/Model.php(137): spl_autoload_call('Config\\Database')
+ 5 APPPATH/Controllers/AceiteController.php(78): CodeIgniter\Model->__construct()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\AceiteController->guardarVentaAceite()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AceiteController))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-17 12:25:27 --> Argument 1 passed to CodeIgniter\Database\Database::load() must be of the type array, string given, called in /home/jkmpg7ol/public_html/inventarios/system/Database/Config.php on line 82
+in SYSTEMPATH/Database/Database.php on line 42.
+ 1 SYSTEMPATH/Database/Config.php(82): CodeIgniter\Database\Database->load('preciosBD', 'secondGroup')
+ 2 APPPATH/Controllers/AceiteController.php(99): CodeIgniter\Database\Config::connect('secondGroup')
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\AceiteController->guardarVentaAceite()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AceiteController))
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-17 12:26:26 --> Argument 1 passed to CodeIgniter\Database\Database::load() must be of the type array, string given, called in /home/jkmpg7ol/public_html/inventarios/system/Database/Config.php on line 82
+in SYSTEMPATH/Database/Database.php on line 42.
+ 1 SYSTEMPATH/Database/Config.php(82): CodeIgniter\Database\Database->load('preciosBD', 'secondGroup')
+ 2 APPPATH/Controllers/AceiteController.php(99): CodeIgniter\Database\Config::connect('secondGroup', false)
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\AceiteController->guardarVentaAceite()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AceiteController))
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-17 12:27:06 --> Argument 1 passed to CodeIgniter\Database\Database::load() must be of the type array, string given, called in /home/jkmpg7ol/public_html/inventarios/system/Database/Config.php on line 82
+in SYSTEMPATH/Database/Database.php on line 42.
+ 1 SYSTEMPATH/Database/Config.php(82): CodeIgniter\Database\Database->load('default', 'defaultGroup')
+ 2 APPPATH/Controllers/AceiteController.php(99): CodeIgniter\Database\Config::connect('defaultGroup', false)
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\AceiteController->guardarVentaAceite()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AceiteController))
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-17 12:31:23 --> mysqli_sql_exception: Table 'jkmpg7ol_inventarios.ip' doesn't exist in /home/jkmpg7ol/public_html/inventarios/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/jkmpg7ol/public_html/inventarios/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT folio FR...', 0)
+#1 /home/jkmpg7ol/public_html/inventarios/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT folio FR...')
+#2 /home/jkmpg7ol/public_html/inventarios/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT folio FR...')
+#3 /home/jkmpg7ol/public_html/inventarios/app/Controllers/AceiteController.php(100): CodeIgniter\Database\BaseConnection->query('SELECT folio FR...')
+#4 /home/jkmpg7ol/public_html/inventarios/system/CodeIgniter.php(927): App\Controllers\AceiteController->guardarVentaAceite()
+#5 /home/jkmpg7ol/public_html/inventarios/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AceiteController))
+#6 /home/jkmpg7ol/public_html/inventarios/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/jkmpg7ol/public_html/inventarios/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2023-04-17 12:31:24 --> mysqli_sql_exception: Table 'jkmpg7ol_inventarios.ip' doesn't exist in /home/jkmpg7ol/public_html/inventarios/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/jkmpg7ol/public_html/inventarios/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT folio FR...', 0)
+#1 /home/jkmpg7ol/public_html/inventarios/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT folio FR...')
+#2 /home/jkmpg7ol/public_html/inventarios/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT folio FR...')
+#3 /home/jkmpg7ol/public_html/inventarios/app/Controllers/AceiteController.php(100): CodeIgniter\Database\BaseConnection->query('SELECT folio FR...')
+#4 /home/jkmpg7ol/public_html/inventarios/system/CodeIgniter.php(927): App\Controllers\AceiteController->guardarVentaAceite()
+#5 /home/jkmpg7ol/public_html/inventarios/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AceiteController))
+#6 /home/jkmpg7ol/public_html/inventarios/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/jkmpg7ol/public_html/inventarios/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2023-04-17 12:31:41 --> mysqli_sql_exception: Table 'jkmpg7ol_inventarios.ip' doesn't exist in /home/jkmpg7ol/public_html/inventarios/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/jkmpg7ol/public_html/inventarios/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT folio FR...', 0)
+#1 /home/jkmpg7ol/public_html/inventarios/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT folio FR...')
+#2 /home/jkmpg7ol/public_html/inventarios/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT folio FR...')
+#3 /home/jkmpg7ol/public_html/inventarios/app/Controllers/AceiteController.php(100): CodeIgniter\Database\BaseConnection->query('SELECT folio FR...')
+#4 /home/jkmpg7ol/public_html/inventarios/system/CodeIgniter.php(927): App\Controllers\AceiteController->guardarVentaAceite()
+#5 /home/jkmpg7ol/public_html/inventarios/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AceiteController))
+#6 /home/jkmpg7ol/public_html/inventarios/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/jkmpg7ol/public_html/inventarios/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2023-04-17 12:31:43 --> mysqli_sql_exception: Table 'jkmpg7ol_inventarios.ip' doesn't exist in /home/jkmpg7ol/public_html/inventarios/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/jkmpg7ol/public_html/inventarios/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT folio FR...', 0)
+#1 /home/jkmpg7ol/public_html/inventarios/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT folio FR...')
+#2 /home/jkmpg7ol/public_html/inventarios/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT folio FR...')
+#3 /home/jkmpg7ol/public_html/inventarios/app/Controllers/AceiteController.php(100): CodeIgniter\Database\BaseConnection->query('SELECT folio FR...')
+#4 /home/jkmpg7ol/public_html/inventarios/system/CodeIgniter.php(927): App\Controllers\AceiteController->guardarVentaAceite()
+#5 /home/jkmpg7ol/public_html/inventarios/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AceiteController))
+#6 /home/jkmpg7ol/public_html/inventarios/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/jkmpg7ol/public_html/inventarios/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2023-04-17 12:31:44 --> mysqli_sql_exception: Table 'jkmpg7ol_inventarios.ip' doesn't exist in /home/jkmpg7ol/public_html/inventarios/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/jkmpg7ol/public_html/inventarios/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT folio FR...', 0)
+#1 /home/jkmpg7ol/public_html/inventarios/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT folio FR...')
+#2 /home/jkmpg7ol/public_html/inventarios/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT folio FR...')
+#3 /home/jkmpg7ol/public_html/inventarios/app/Controllers/AceiteController.php(100): CodeIgniter\Database\BaseConnection->query('SELECT folio FR...')
+#4 /home/jkmpg7ol/public_html/inventarios/system/CodeIgniter.php(927): App\Controllers\AceiteController->guardarVentaAceite()
+#5 /home/jkmpg7ol/public_html/inventarios/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AceiteController))
+#6 /home/jkmpg7ol/public_html/inventarios/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/jkmpg7ol/public_html/inventarios/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2023-04-17 12:31:45 --> mysqli_sql_exception: Table 'jkmpg7ol_inventarios.ip' doesn't exist in /home/jkmpg7ol/public_html/inventarios/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/jkmpg7ol/public_html/inventarios/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT folio FR...', 0)
+#1 /home/jkmpg7ol/public_html/inventarios/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT folio FR...')
+#2 /home/jkmpg7ol/public_html/inventarios/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT folio FR...')
+#3 /home/jkmpg7ol/public_html/inventarios/app/Controllers/AceiteController.php(100): CodeIgniter\Database\BaseConnection->query('SELECT folio FR...')
+#4 /home/jkmpg7ol/public_html/inventarios/system/CodeIgniter.php(927): App\Controllers\AceiteController->guardarVentaAceite()
+#5 /home/jkmpg7ol/public_html/inventarios/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AceiteController))
+#6 /home/jkmpg7ol/public_html/inventarios/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/jkmpg7ol/public_html/inventarios/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2023-04-17 12:32:02 --> mysqli_sql_exception: Table 'jkmpg7ol_inventarios.ip' doesn't exist in /home/jkmpg7ol/public_html/inventarios/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/jkmpg7ol/public_html/inventarios/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT folio FR...', 0)
+#1 /home/jkmpg7ol/public_html/inventarios/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT folio FR...')
+#2 /home/jkmpg7ol/public_html/inventarios/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT folio FR...')
+#3 /home/jkmpg7ol/public_html/inventarios/app/Controllers/AceiteController.php(100): CodeIgniter\Database\BaseConnection->query('SELECT folio FR...')
+#4 /home/jkmpg7ol/public_html/inventarios/system/CodeIgniter.php(927): App\Controllers\AceiteController->guardarVentaAceite()
+#5 /home/jkmpg7ol/public_html/inventarios/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AceiteController))
+#6 /home/jkmpg7ol/public_html/inventarios/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/jkmpg7ol/public_html/inventarios/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2023-04-17 12:34:00 --> mysqli_sql_exception: Table 'jkmpg7ol_inventarios.ip' doesn't exist in /home/jkmpg7ol/public_html/inventarios/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/jkmpg7ol/public_html/inventarios/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT folio FR...', 0)
+#1 /home/jkmpg7ol/public_html/inventarios/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT folio FR...')
+#2 /home/jkmpg7ol/public_html/inventarios/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT folio FR...')
+#3 /home/jkmpg7ol/public_html/inventarios/app/Controllers/AceiteController.php(100): CodeIgniter\Database\BaseConnection->query('SELECT folio FR...')
+#4 /home/jkmpg7ol/public_html/inventarios/system/CodeIgniter.php(927): App\Controllers\AceiteController->guardarVentaAceite()
+#5 /home/jkmpg7ol/public_html/inventarios/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AceiteController))
+#6 /home/jkmpg7ol/public_html/inventarios/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/jkmpg7ol/public_html/inventarios/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2023-04-17 12:34:00 --> mysqli_sql_exception: Table 'jkmpg7ol_inventarios.ip' doesn't exist in /home/jkmpg7ol/public_html/inventarios/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/jkmpg7ol/public_html/inventarios/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT folio FR...', 0)
+#1 /home/jkmpg7ol/public_html/inventarios/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT folio FR...')
+#2 /home/jkmpg7ol/public_html/inventarios/app/Controllers/AceiteController.php(101): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT folio FR...')
+#3 /home/jkmpg7ol/public_html/inventarios/system/CodeIgniter.php(927): App\Controllers\AceiteController->guardarVentaAceite()
+#4 /home/jkmpg7ol/public_html/inventarios/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AceiteController))
+#5 /home/jkmpg7ol/public_html/inventarios/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/jkmpg7ol/public_html/inventarios/index.php(67): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-04-17 12:34:00 --> Call to a member function error() on null
+in APPPATH/Controllers/AceiteController.php on line 102.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\AceiteController->guardarVentaAceite()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AceiteController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-17 12:34:07 --> mysqli_sql_exception: Table 'jkmpg7ol_inventarios.ip' doesn't exist in /home/jkmpg7ol/public_html/inventarios/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/jkmpg7ol/public_html/inventarios/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT folio FR...', 0)
+#1 /home/jkmpg7ol/public_html/inventarios/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT folio FR...')
+#2 /home/jkmpg7ol/public_html/inventarios/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT folio FR...')
+#3 /home/jkmpg7ol/public_html/inventarios/app/Controllers/AceiteController.php(100): CodeIgniter\Database\BaseConnection->query('SELECT folio FR...')
+#4 /home/jkmpg7ol/public_html/inventarios/system/CodeIgniter.php(927): App\Controllers\AceiteController->guardarVentaAceite()
+#5 /home/jkmpg7ol/public_html/inventarios/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AceiteController))
+#6 /home/jkmpg7ol/public_html/inventarios/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/jkmpg7ol/public_html/inventarios/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2023-04-17 12:34:07 --> mysqli_sql_exception: Table 'jkmpg7ol_inventarios.ip' doesn't exist in /home/jkmpg7ol/public_html/inventarios/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/jkmpg7ol/public_html/inventarios/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT folio FR...', 0)
+#1 /home/jkmpg7ol/public_html/inventarios/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT folio FR...')
+#2 /home/jkmpg7ol/public_html/inventarios/app/Controllers/AceiteController.php(101): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT folio FR...')
+#3 /home/jkmpg7ol/public_html/inventarios/system/CodeIgniter.php(927): App\Controllers\AceiteController->guardarVentaAceite()
+#4 /home/jkmpg7ol/public_html/inventarios/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AceiteController))
+#5 /home/jkmpg7ol/public_html/inventarios/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/jkmpg7ol/public_html/inventarios/index.php(67): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2023-04-17 12:34:17 --> mysqli_sql_exception: Table 'jkmpg7ol_inventarios.ip' doesn't exist in /home/jkmpg7ol/public_html/inventarios/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/jkmpg7ol/public_html/inventarios/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT folio FR...', 0)
+#1 /home/jkmpg7ol/public_html/inventarios/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT folio FR...')
+#2 /home/jkmpg7ol/public_html/inventarios/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT folio FR...')
+#3 /home/jkmpg7ol/public_html/inventarios/app/Controllers/AceiteController.php(100): CodeIgniter\Database\BaseConnection->query('SELECT folio FR...')
+#4 /home/jkmpg7ol/public_html/inventarios/system/CodeIgniter.php(927): App\Controllers\AceiteController->guardarVentaAceite()
+#5 /home/jkmpg7ol/public_html/inventarios/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AceiteController))
+#6 /home/jkmpg7ol/public_html/inventarios/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/jkmpg7ol/public_html/inventarios/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2023-04-17 12:34:17 --> mysqli_sql_exception: Table 'jkmpg7ol_inventarios.ip' doesn't exist in /home/jkmpg7ol/public_html/inventarios/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/jkmpg7ol/public_html/inventarios/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT folio FR...', 0)
+#1 /home/jkmpg7ol/public_html/inventarios/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT folio FR...')
+#2 /home/jkmpg7ol/public_html/inventarios/app/Controllers/AceiteController.php(101): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT folio FR...')
+#3 /home/jkmpg7ol/public_html/inventarios/system/CodeIgniter.php(927): App\Controllers\AceiteController->guardarVentaAceite()
+#4 /home/jkmpg7ol/public_html/inventarios/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AceiteController))
+#5 /home/jkmpg7ol/public_html/inventarios/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/jkmpg7ol/public_html/inventarios/index.php(67): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2023-04-17 12:35:43 --> mysqli_sql_exception: Table 'jkmpg7ol_inventarios.ip' doesn't exist in /home/jkmpg7ol/public_html/inventarios/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/jkmpg7ol/public_html/inventarios/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT folio FR...', 0)
+#1 /home/jkmpg7ol/public_html/inventarios/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT folio FR...')
+#2 /home/jkmpg7ol/public_html/inventarios/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT folio FR...')
+#3 /home/jkmpg7ol/public_html/inventarios/app/Controllers/AceiteController.php(100): CodeIgniter\Database\BaseConnection->query('SELECT folio FR...')
+#4 /home/jkmpg7ol/public_html/inventarios/system/CodeIgniter.php(927): App\Controllers\AceiteController->guardarVentaAceite()
+#5 /home/jkmpg7ol/public_html/inventarios/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AceiteController))
+#6 /home/jkmpg7ol/public_html/inventarios/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/jkmpg7ol/public_html/inventarios/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2023-04-17 12:35:43 --> mysqli_sql_exception: Table 'jkmpg7ol_inventarios.ip' doesn't exist in /home/jkmpg7ol/public_html/inventarios/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/jkmpg7ol/public_html/inventarios/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT folio FR...', 0)
+#1 /home/jkmpg7ol/public_html/inventarios/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT folio FR...')
+#2 /home/jkmpg7ol/public_html/inventarios/app/Controllers/AceiteController.php(101): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT folio FR...')
+#3 /home/jkmpg7ol/public_html/inventarios/system/CodeIgniter.php(927): App\Controllers\AceiteController->guardarVentaAceite()
+#4 /home/jkmpg7ol/public_html/inventarios/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AceiteController))
+#5 /home/jkmpg7ol/public_html/inventarios/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/jkmpg7ol/public_html/inventarios/index.php(67): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2023-04-17 12:35:44 --> mysqli_sql_exception: Table 'jkmpg7ol_inventarios.ip' doesn't exist in /home/jkmpg7ol/public_html/inventarios/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/jkmpg7ol/public_html/inventarios/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT folio FR...', 0)
+#1 /home/jkmpg7ol/public_html/inventarios/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT folio FR...')
+#2 /home/jkmpg7ol/public_html/inventarios/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT folio FR...')
+#3 /home/jkmpg7ol/public_html/inventarios/app/Controllers/AceiteController.php(100): CodeIgniter\Database\BaseConnection->query('SELECT folio FR...')
+#4 /home/jkmpg7ol/public_html/inventarios/system/CodeIgniter.php(927): App\Controllers\AceiteController->guardarVentaAceite()
+#5 /home/jkmpg7ol/public_html/inventarios/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AceiteController))
+#6 /home/jkmpg7ol/public_html/inventarios/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/jkmpg7ol/public_html/inventarios/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2023-04-17 12:35:44 --> mysqli_sql_exception: Table 'jkmpg7ol_inventarios.ip' doesn't exist in /home/jkmpg7ol/public_html/inventarios/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/jkmpg7ol/public_html/inventarios/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT folio FR...', 0)
+#1 /home/jkmpg7ol/public_html/inventarios/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT folio FR...')
+#2 /home/jkmpg7ol/public_html/inventarios/app/Controllers/AceiteController.php(101): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT folio FR...')
+#3 /home/jkmpg7ol/public_html/inventarios/system/CodeIgniter.php(927): App\Controllers\AceiteController->guardarVentaAceite()
+#4 /home/jkmpg7ol/public_html/inventarios/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AceiteController))
+#5 /home/jkmpg7ol/public_html/inventarios/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/jkmpg7ol/public_html/inventarios/index.php(67): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2023-04-17 12:35:45 --> mysqli_sql_exception: Table 'jkmpg7ol_inventarios.ip' doesn't exist in /home/jkmpg7ol/public_html/inventarios/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/jkmpg7ol/public_html/inventarios/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT folio FR...', 0)
+#1 /home/jkmpg7ol/public_html/inventarios/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT folio FR...')
+#2 /home/jkmpg7ol/public_html/inventarios/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT folio FR...')
+#3 /home/jkmpg7ol/public_html/inventarios/app/Controllers/AceiteController.php(100): CodeIgniter\Database\BaseConnection->query('SELECT folio FR...')
+#4 /home/jkmpg7ol/public_html/inventarios/system/CodeIgniter.php(927): App\Controllers\AceiteController->guardarVentaAceite()
+#5 /home/jkmpg7ol/public_html/inventarios/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AceiteController))
+#6 /home/jkmpg7ol/public_html/inventarios/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/jkmpg7ol/public_html/inventarios/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2023-04-17 12:35:45 --> mysqli_sql_exception: Table 'jkmpg7ol_inventarios.ip' doesn't exist in /home/jkmpg7ol/public_html/inventarios/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/jkmpg7ol/public_html/inventarios/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT folio FR...', 0)
+#1 /home/jkmpg7ol/public_html/inventarios/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT folio FR...')
+#2 /home/jkmpg7ol/public_html/inventarios/app/Controllers/AceiteController.php(101): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT folio FR...')
+#3 /home/jkmpg7ol/public_html/inventarios/system/CodeIgniter.php(927): App\Controllers\AceiteController->guardarVentaAceite()
+#4 /home/jkmpg7ol/public_html/inventarios/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AceiteController))
+#5 /home/jkmpg7ol/public_html/inventarios/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/jkmpg7ol/public_html/inventarios/index.php(67): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2023-04-17 12:35:46 --> mysqli_sql_exception: Table 'jkmpg7ol_inventarios.ip' doesn't exist in /home/jkmpg7ol/public_html/inventarios/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/jkmpg7ol/public_html/inventarios/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT folio FR...', 0)
+#1 /home/jkmpg7ol/public_html/inventarios/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT folio FR...')
+#2 /home/jkmpg7ol/public_html/inventarios/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT folio FR...')
+#3 /home/jkmpg7ol/public_html/inventarios/app/Controllers/AceiteController.php(100): CodeIgniter\Database\BaseConnection->query('SELECT folio FR...')
+#4 /home/jkmpg7ol/public_html/inventarios/system/CodeIgniter.php(927): App\Controllers\AceiteController->guardarVentaAceite()
+#5 /home/jkmpg7ol/public_html/inventarios/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AceiteController))
+#6 /home/jkmpg7ol/public_html/inventarios/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/jkmpg7ol/public_html/inventarios/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2023-04-17 12:35:46 --> mysqli_sql_exception: Table 'jkmpg7ol_inventarios.ip' doesn't exist in /home/jkmpg7ol/public_html/inventarios/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/jkmpg7ol/public_html/inventarios/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT folio FR...', 0)
+#1 /home/jkmpg7ol/public_html/inventarios/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT folio FR...')
+#2 /home/jkmpg7ol/public_html/inventarios/app/Controllers/AceiteController.php(101): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT folio FR...')
+#3 /home/jkmpg7ol/public_html/inventarios/system/CodeIgniter.php(927): App\Controllers\AceiteController->guardarVentaAceite()
+#4 /home/jkmpg7ol/public_html/inventarios/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AceiteController))
+#5 /home/jkmpg7ol/public_html/inventarios/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/jkmpg7ol/public_html/inventarios/index.php(67): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2023-04-17 12:35:46 --> mysqli_sql_exception: Table 'jkmpg7ol_inventarios.ip' doesn't exist in /home/jkmpg7ol/public_html/inventarios/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/jkmpg7ol/public_html/inventarios/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT folio FR...', 0)
+#1 /home/jkmpg7ol/public_html/inventarios/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT folio FR...')
+#2 /home/jkmpg7ol/public_html/inventarios/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT folio FR...')
+#3 /home/jkmpg7ol/public_html/inventarios/app/Controllers/AceiteController.php(100): CodeIgniter\Database\BaseConnection->query('SELECT folio FR...')
+#4 /home/jkmpg7ol/public_html/inventarios/system/CodeIgniter.php(927): App\Controllers\AceiteController->guardarVentaAceite()
+#5 /home/jkmpg7ol/public_html/inventarios/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AceiteController))
+#6 /home/jkmpg7ol/public_html/inventarios/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/jkmpg7ol/public_html/inventarios/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2023-04-17 12:35:46 --> mysqli_sql_exception: Table 'jkmpg7ol_inventarios.ip' doesn't exist in /home/jkmpg7ol/public_html/inventarios/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/jkmpg7ol/public_html/inventarios/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT folio FR...', 0)
+#1 /home/jkmpg7ol/public_html/inventarios/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT folio FR...')
+#2 /home/jkmpg7ol/public_html/inventarios/app/Controllers/AceiteController.php(101): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT folio FR...')
+#3 /home/jkmpg7ol/public_html/inventarios/system/CodeIgniter.php(927): App\Controllers\AceiteController->guardarVentaAceite()
+#4 /home/jkmpg7ol/public_html/inventarios/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AceiteController))
+#5 /home/jkmpg7ol/public_html/inventarios/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/jkmpg7ol/public_html/inventarios/index.php(67): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2023-04-17 12:36:18 --> mysqli_sql_exception: Table 'jkmpg7ol_inventarios.ip' doesn't exist in /home/jkmpg7ol/public_html/inventarios/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/jkmpg7ol/public_html/inventarios/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT folio FR...', 0)
+#1 /home/jkmpg7ol/public_html/inventarios/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT folio FR...')
+#2 /home/jkmpg7ol/public_html/inventarios/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT folio FR...')
+#3 /home/jkmpg7ol/public_html/inventarios/app/Controllers/AceiteController.php(100): CodeIgniter\Database\BaseConnection->query('SELECT folio FR...')
+#4 /home/jkmpg7ol/public_html/inventarios/system/CodeIgniter.php(927): App\Controllers\AceiteController->guardarVentaAceite()
+#5 /home/jkmpg7ol/public_html/inventarios/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AceiteController))
+#6 /home/jkmpg7ol/public_html/inventarios/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/jkmpg7ol/public_html/inventarios/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2023-04-17 12:36:18 --> mysqli_sql_exception: Table 'jkmpg7ol_inventarios.ip' doesn't exist in /home/jkmpg7ol/public_html/inventarios/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/jkmpg7ol/public_html/inventarios/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT folio FR...', 0)
+#1 /home/jkmpg7ol/public_html/inventarios/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT folio FR...')
+#2 /home/jkmpg7ol/public_html/inventarios/app/Controllers/AceiteController.php(101): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT folio FR...')
+#3 /home/jkmpg7ol/public_html/inventarios/system/CodeIgniter.php(927): App\Controllers\AceiteController->guardarVentaAceite()
+#4 /home/jkmpg7ol/public_html/inventarios/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AceiteController))
+#5 /home/jkmpg7ol/public_html/inventarios/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/jkmpg7ol/public_html/inventarios/index.php(67): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2023-04-17 12:41:36 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'GROUP BY `id_producto`
+ORDER BY `folio` ASC' at line 4 in /home/jkmpg7ol/public_html/inventarios/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/jkmpg7ol/public_html/inventarios/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/jkmpg7ol/public_html/inventarios/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/jkmpg7ol/public_html/inventarios/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/jkmpg7ol/public_html/inventarios/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/jkmpg7ol/public_html/inventarios/system/Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/jkmpg7ol/public_html/inventarios/system/BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+#6 /home/jkmpg7ol/public_html/inventarios/app/Controllers/AceiteController.php(113): CodeIgniter\BaseModel->findAll()
+#7 /home/jkmpg7ol/public_html/inventarios/system/CodeIgniter.php(927): App\Controllers\AceiteController->guardarVentaAceite()
+#8 /home/jkmpg7ol/public_html/inventarios/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AceiteController))
+#9 /home/jkmpg7ol/public_html/inventarios/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/jkmpg7ol/public_html/inventarios/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-04-17 12:41:36 --> Call to a member function getResult() on bool
+in SYSTEMPATH/Model.php on line 224.
+ 1 SYSTEMPATH/BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+ 2 APPPATH/Controllers/AceiteController.php(113): CodeIgniter\BaseModel->findAll()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\AceiteController->guardarVentaAceite()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AceiteController))
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-17 13:01:40 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'GROUP BY `id_producto`
+ORDER BY `folio` ASC' at line 4 in /home/jkmpg7ol/public_html/inventarios/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/jkmpg7ol/public_html/inventarios/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/jkmpg7ol/public_html/inventarios/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/jkmpg7ol/public_html/inventarios/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/jkmpg7ol/public_html/inventarios/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/jkmpg7ol/public_html/inventarios/system/Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/jkmpg7ol/public_html/inventarios/system/BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+#6 /home/jkmpg7ol/public_html/inventarios/app/Controllers/AceiteController.php(113): CodeIgniter\BaseModel->findAll()
+#7 /home/jkmpg7ol/public_html/inventarios/system/CodeIgniter.php(927): App\Controllers\AceiteController->guardarVentaAceite()
+#8 /home/jkmpg7ol/public_html/inventarios/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AceiteController))
+#9 /home/jkmpg7ol/public_html/inventarios/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/jkmpg7ol/public_html/inventarios/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-04-17 13:01:40 --> Call to a member function getResult() on bool
+in SYSTEMPATH/Model.php on line 224.
+ 1 SYSTEMPATH/BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+ 2 APPPATH/Controllers/AceiteController.php(113): CodeIgniter\BaseModel->findAll()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\AceiteController->guardarVentaAceite()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AceiteController))
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-17 13:25:11 --> mysqli_sql_exception: Table 'jkmpg7ol_inventarios.venta' doesn't exist in /home/jkmpg7ol/public_html/inventarios/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/jkmpg7ol/public_html/inventarios/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT\r\n       ...', 0)
+#1 /home/jkmpg7ol/public_html/inventarios/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 /home/jkmpg7ol/public_html/inventarios/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 /home/jkmpg7ol/public_html/inventarios/system/Model.php(768): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
+#4 /home/jkmpg7ol/public_html/inventarios/app/Controllers/AceiteController.php(122): CodeIgniter\Model->__call('query', Array)
+#5 /home/jkmpg7ol/public_html/inventarios/system/CodeIgniter.php(927): App\Controllers\AceiteController->guardarVentaAceite()
+#6 /home/jkmpg7ol/public_html/inventarios/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AceiteController))
+#7 /home/jkmpg7ol/public_html/inventarios/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/jkmpg7ol/public_html/inventarios/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-04-17 13:25:11 --> Call to a member function getResultArray() on bool
+in APPPATH/Controllers/AceiteController.php on line 124.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\AceiteController->guardarVentaAceite()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AceiteController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-17 15:51:04 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE    folio IN (SELECT MAX(folio) FROM historial_compra_venta where fecha < '' at line 1 in /home/jkmpg7ol/public_html/inventarios/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/jkmpg7ol/public_html/inventarios/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT folio, i...', 0)
+#1 /home/jkmpg7ol/public_html/inventarios/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT folio, i...')
+#2 /home/jkmpg7ol/public_html/inventarios/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT folio, i...')
+#3 /home/jkmpg7ol/public_html/inventarios/system/Model.php(768): CodeIgniter\Database\BaseConnection->query('SELECT folio, i...')
+#4 /home/jkmpg7ol/public_html/inventarios/app/Controllers/AceiteController.php(145): CodeIgniter\Model->__call('query', Array)
+#5 /home/jkmpg7ol/public_html/inventarios/system/CodeIgniter.php(927): App\Controllers\AceiteController->guardarVentaAceite()
+#6 /home/jkmpg7ol/public_html/inventarios/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AceiteController))
+#7 /home/jkmpg7ol/public_html/inventarios/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/jkmpg7ol/public_html/inventarios/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-04-17 15:51:04 --> Call to a member function getResultArray() on bool
+in APPPATH/Controllers/AceiteController.php on line 148.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\AceiteController->guardarVentaAceite()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AceiteController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-17 15:58:35 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE    folio IN (SELECT MAX(folio) FROM historial_compra_venta where fecha < '' at line 1 in /home/jkmpg7ol/public_html/inventarios/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/jkmpg7ol/public_html/inventarios/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT folio, i...', 0)
+#1 /home/jkmpg7ol/public_html/inventarios/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT folio, i...')
+#2 /home/jkmpg7ol/public_html/inventarios/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT folio, i...')
+#3 /home/jkmpg7ol/public_html/inventarios/system/Model.php(768): CodeIgniter\Database\BaseConnection->query('SELECT folio, i...')
+#4 /home/jkmpg7ol/public_html/inventarios/app/Controllers/AceiteController.php(145): CodeIgniter\Model->__call('query', Array)
+#5 /home/jkmpg7ol/public_html/inventarios/system/CodeIgniter.php(927): App\Controllers\AceiteController->guardarVentaAceite()
+#6 /home/jkmpg7ol/public_html/inventarios/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AceiteController))
+#7 /home/jkmpg7ol/public_html/inventarios/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/jkmpg7ol/public_html/inventarios/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-04-17 15:58:35 --> Call to a member function getResultArray() on bool
+in APPPATH/Controllers/AceiteController.php on line 148.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\AceiteController->guardarVentaAceite()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AceiteController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-17 17:16:28 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '7, COUNT(CASE WHEN WEEKDAY(fecha)=1 THEN fecha END) AS M, COUNT(CASE WHEN WEEKDA' at line 3 in /home/jkmpg7ol/public_html/inventarios/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/jkmpg7ol/public_html/inventarios/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT\r\n       ...', 0)
+#1 /home/jkmpg7ol/public_html/inventarios/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 /home/jkmpg7ol/public_html/inventarios/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 /home/jkmpg7ol/public_html/inventarios/app/Controllers/AceiteController.php(117): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
+#4 /home/jkmpg7ol/public_html/inventarios/system/CodeIgniter.php(927): App\Controllers\AceiteController->guardarVentaAceite()
+#5 /home/jkmpg7ol/public_html/inventarios/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AceiteController))
+#6 /home/jkmpg7ol/public_html/inventarios/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/jkmpg7ol/public_html/inventarios/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-04-17 17:16:28 --> Call to a member function getResultArray() on bool
+in APPPATH/Controllers/AceiteController.php on line 124.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\AceiteController->guardarVentaAceite()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AceiteController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-17 17:16:54 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '7, COUNT(CASE WHEN WEEKDAY(fecha)=1 THEN fecha END) AS M, COUNT(CASE WHEN WEEKDA' at line 3 in /home/jkmpg7ol/public_html/inventarios/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/jkmpg7ol/public_html/inventarios/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT\r\n       ...', 0)
+#1 /home/jkmpg7ol/public_html/inventarios/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 /home/jkmpg7ol/public_html/inventarios/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 /home/jkmpg7ol/public_html/inventarios/app/Controllers/AceiteController.php(117): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
+#4 /home/jkmpg7ol/public_html/inventarios/system/CodeIgniter.php(927): App\Controllers\AceiteController->guardarVentaAceite()
+#5 /home/jkmpg7ol/public_html/inventarios/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AceiteController))
+#6 /home/jkmpg7ol/public_html/inventarios/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/jkmpg7ol/public_html/inventarios/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}

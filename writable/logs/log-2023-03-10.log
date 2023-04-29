@@ -1,0 +1,140 @@
+CRITICAL - 2023-03-10 14:30:14 --> Decrypting: authentication failed.
+in SYSTEMPATH/Encryption/Handlers/OpenSSLHandler.php on line 98.
+ 1 SYSTEMPATH/Encryption/Handlers/OpenSSLHandler.php(98): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+ 2 APPPATH/Controllers/LoginController.php(24): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt('/home/jkmpg7ol/public_html/inventarios')
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LoginController->validarIngreso()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-10 14:32:49 --> Decrypting: authentication failed.
+in SYSTEMPATH/Encryption/Handlers/OpenSSLHandler.php on line 98.
+ 1 SYSTEMPATH/Encryption/Handlers/OpenSSLHandler.php(98): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+ 2 APPPATH/Controllers/LoginController.php(24): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt('/home/jkmpg7ol/public_html/inventarios')
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LoginController->validarIngreso()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-10 14:33:23 --> Decrypting: authentication failed.
+in SYSTEMPATH/Encryption/Handlers/OpenSSLHandler.php on line 98.
+ 1 SYSTEMPATH/Encryption/Handlers/OpenSSLHandler.php(98): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+ 2 APPPATH/Controllers/LoginController.php(24): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt('/home/jkmpg7ol/public_html/inventarios')
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LoginController->validarIngreso()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-10 14:43:28 --> Use of undefined constant petromar - assumed 'petromar' (this will throw an Error in a future version of PHP)
+in APPPATH/Controllers/LoginController.php on line 12.
+ 1 APPPATH/Controllers/LoginController.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefined constant petromar - assumed \'petromar\' (this will throw an Error in a future version of PHP)', 'APPPATH/Controllers/LoginController.php', 12, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LoginController->index()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-10 14:43:30 --> Use of undefined constant petromar - assumed 'petromar' (this will throw an Error in a future version of PHP)
+in APPPATH/Controllers/LoginController.php on line 12.
+ 1 APPPATH/Controllers/LoginController.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefined constant petromar - assumed \'petromar\' (this will throw an Error in a future version of PHP)', 'APPPATH/Controllers/LoginController.php', 12, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LoginController->index()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-10 14:44:33 --> Decrypting: authentication failed.
+in SYSTEMPATH/Encryption/Handlers/OpenSSLHandler.php on line 98.
+ 1 SYSTEMPATH/Encryption/Handlers/OpenSSLHandler.php(98): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+ 2 APPPATH/Controllers/LoginController.php(24): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt('/home/jkmpg7ol/public_html/inventarios')
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LoginController->validarIngreso()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-10 14:47:33 --> Decrypting: authentication failed.
+in SYSTEMPATH/Encryption/Handlers/OpenSSLHandler.php on line 98.
+ 1 SYSTEMPATH/Encryption/Handlers/OpenSSLHandler.php(98): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+ 2 APPPATH/Controllers/LoginController.php(24): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt('/home/jkmpg7ol/public_html/inventarios')
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LoginController->validarIngreso()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-10 14:48:48 --> syntax error, unexpected 'public' (T_PUBLIC)
+in APPPATH/Controllers/LoginController.php on line 47.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH/Controllers/LoginController.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\LoginController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\LoginController')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\LoginController')
+ 5 SYSTEMPATH/CodeIgniter.php(877): class_exists('\\App\\Controllers\\LoginController', true)
+ 6 SYSTEMPATH/CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-10 14:49:30 --> Decrypting: authentication failed.
+in SYSTEMPATH/Encryption/Handlers/OpenSSLHandler.php on line 98.
+ 1 SYSTEMPATH/Encryption/Handlers/OpenSSLHandler.php(98): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+ 2 APPPATH/Controllers/LoginController.php(24): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt('/home/jkmpg7ol/public_html/inventarios')
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LoginController->validarIngreso()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-10 14:49:49 --> Object of class stdClass could not be converted to string
+in APPPATH/Controllers/LoginController.php on line 25.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LoginController->validarIngreso()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-10 14:51:15 --> Decrypting: authentication failed.
+in SYSTEMPATH/Encryption/Handlers/OpenSSLHandler.php on line 98.
+ 1 SYSTEMPATH/Encryption/Handlers/OpenSSLHandler.php(98): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+ 2 APPPATH/Controllers/LoginController.php(24): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt('/home/jkmpg7ol/public_html/inventarios')
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LoginController->validarIngreso()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-10 14:52:55 --> Decrypting: authentication failed.
+in SYSTEMPATH/Encryption/Handlers/OpenSSLHandler.php on line 98.
+ 1 SYSTEMPATH/Encryption/Handlers/OpenSSLHandler.php(98): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+ 2 APPPATH/Controllers/LoginController.php(25): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt('/home/jkmpg7ol/public_html/inventarios')
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LoginController->validarIngreso()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-10 14:54:33 --> Decrypting: authentication failed.
+in SYSTEMPATH/Encryption/Handlers/OpenSSLHandler.php on line 98.
+ 1 SYSTEMPATH/Encryption/Handlers/OpenSSLHandler.php(98): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+ 2 APPPATH/Controllers/LoginController.php(25): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt('/home/jkmpg7ol/public_html/inventarios')
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LoginController->validarIngreso()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-10 14:55:43 --> Decrypting: authentication failed.
+in SYSTEMPATH/Encryption/Handlers/OpenSSLHandler.php on line 98.
+ 1 SYSTEMPATH/Encryption/Handlers/OpenSSLHandler.php(98): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+ 2 APPPATH/Controllers/LoginController.php(25): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt('/home/jkmpg7ol/public_html/inventarios')
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LoginController->validarIngreso()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-10 14:57:02 --> Class 'App\Controllers\Encryption' not found
+in APPPATH/Controllers/LoginController.php on line 25.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LoginController->validarIngreso()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-10 14:57:42 --> Decrypting: authentication failed.
+in SYSTEMPATH/Encryption/Handlers/OpenSSLHandler.php on line 98.
+ 1 SYSTEMPATH/Encryption/Handlers/OpenSSLHandler.php(98): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+ 2 APPPATH/Controllers/LoginController.php(25): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt('/home/jkmpg7ol/public_html/inventarios')
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LoginController->validarIngreso()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-10 14:59:51 --> Decrypting: authentication failed.
+in SYSTEMPATH/Encryption/Handlers/OpenSSLHandler.php on line 98.
+ 1 SYSTEMPATH/Encryption/Handlers/OpenSSLHandler.php(98): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+ 2 APPPATH/Controllers/LoginController.php(25): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt('/home/jkmpg7ol/public_html/inventarios')
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LoginController->validarIngreso()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-10 15:01:17 --> Decrypting: authentication failed.
+in SYSTEMPATH/Encryption/Handlers/OpenSSLHandler.php on line 98.
+ 1 SYSTEMPATH/Encryption/Handlers/OpenSSLHandler.php(98): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+ 2 APPPATH/Controllers/LoginController.php(25): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt('/home/jkmpg7ol/public_html/inventarios')
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LoginController->validarIngreso()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

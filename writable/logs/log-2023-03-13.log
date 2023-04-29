@@ -1,0 +1,87 @@
+CRITICAL - 2023-03-13 11:42:17 --> Class 'App\Controllers\Equipo' not found
+in APPPATH/Controllers/EquiposController.php on line 13.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\EquiposController->index()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EquiposController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-13 11:42:34 --> Invalid argument supplied for foreach()
+in APPPATH/Views/equipos/equipos.php on line 35.
+ 1 APPPATH/Views/equipos/equipos.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH/Views/equipos/equipos.php', 35, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/equipos/equipos.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('equipos/equipos', [], true)
+ 5 APPPATH/Controllers/EquiposController.php(16): view('equipos/equipos', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\EquiposController->index()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EquiposController))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-13 13:37:22 --> mysqli_sql_exception: Column 'serie' cannot be null in /home/jkmpg7ol/public_html/inventarios/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/jkmpg7ol/public_html/inventarios/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `eq...', 0)
+#1 /home/jkmpg7ol/public_html/inventarios/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `eq...')
+#2 /home/jkmpg7ol/public_html/inventarios/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `eq...')
+#3 /home/jkmpg7ol/public_html/inventarios/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `eq...', Array, false)
+#4 /home/jkmpg7ol/public_html/inventarios/system/Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/jkmpg7ol/public_html/inventarios/system/BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 /home/jkmpg7ol/public_html/inventarios/system/Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 /home/jkmpg7ol/public_html/inventarios/app/Controllers/EquiposController.php(33): CodeIgniter\Model->insert(Array)
+#8 /home/jkmpg7ol/public_html/inventarios/system/CodeIgniter.php(927): App\Controllers\EquiposController->guardarEquipo()
+#9 /home/jkmpg7ol/public_html/inventarios/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EquiposController))
+#10 /home/jkmpg7ol/public_html/inventarios/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/jkmpg7ol/public_html/inventarios/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-03-13 13:41:11 --> mysqli_sql_exception: Column 'serie' cannot be null in /home/jkmpg7ol/public_html/inventarios/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/jkmpg7ol/public_html/inventarios/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `eq...', 0)
+#1 /home/jkmpg7ol/public_html/inventarios/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `eq...')
+#2 /home/jkmpg7ol/public_html/inventarios/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `eq...')
+#3 /home/jkmpg7ol/public_html/inventarios/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `eq...', Array, false)
+#4 /home/jkmpg7ol/public_html/inventarios/system/Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/jkmpg7ol/public_html/inventarios/system/BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 /home/jkmpg7ol/public_html/inventarios/system/Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 /home/jkmpg7ol/public_html/inventarios/app/Controllers/EquiposController.php(33): CodeIgniter\Model->insert(Array)
+#8 /home/jkmpg7ol/public_html/inventarios/system/CodeIgniter.php(927): App\Controllers\EquiposController->guardarEquipo()
+#9 /home/jkmpg7ol/public_html/inventarios/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EquiposController))
+#10 /home/jkmpg7ol/public_html/inventarios/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/jkmpg7ol/public_html/inventarios/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-03-13 14:53:54 --> Object of class DateTime could not be converted to string
+in APPPATH/Views/equipos/equipos.php on line 53.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('equipos/equipos', [], true)
+ 4 APPPATH/Controllers/EquiposController.php(16): view('equipos/equipos', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\EquiposController->index()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EquiposController))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-13 14:54:08 --> Object of class DateTime could not be converted to string
+in APPPATH/Views/equipos/equipos.php on line 53.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('equipos/equipos', [], true)
+ 4 APPPATH/Controllers/EquiposController.php(16): view('equipos/equipos', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\EquiposController->index()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EquiposController))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-13 14:54:42 --> Object of class DateTime could not be converted to string
+in APPPATH/Views/equipos/equipos.php on line 58.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('equipos/equipos', [], true)
+ 4 APPPATH/Controllers/EquiposController.php(16): view('equipos/equipos', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\EquiposController->index()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EquiposController))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-13 15:44:34 --> Object of class DateTime could not be converted to string
+in APPPATH/Views/equipos/equipos.php on line 56.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('equipos/equipos', [], true)
+ 4 APPPATH/Controllers/EquiposController.php(16): view('equipos/equipos', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\EquiposController->index()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EquiposController))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,14 @@
+CRITICAL - 2023-04-18 17:54:20 --> A non-numeric value encountered
+in APPPATH/Controllers/AceiteController.php on line 113.
+ 1 APPPATH/Controllers/AceiteController.php(113): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric value encountered', 'APPPATH/Controllers/AceiteController.php', 113, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\AceiteController->guardarVentaAceite()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AceiteController))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-18 17:55:05 --> A non-numeric value encountered
+in APPPATH/Controllers/AceiteController.php on line 113.
+ 1 APPPATH/Controllers/AceiteController.php(113): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric value encountered', 'APPPATH/Controllers/AceiteController.php', 113, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\AceiteController->guardarVentaAceite()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AceiteController))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
